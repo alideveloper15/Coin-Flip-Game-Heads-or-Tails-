@@ -30,8 +30,8 @@ function playGame(playerMove) {
     
     document.querySelector('.js-result').innerHTML = result
     
-    document.querySelector('.js-moves')
-    .innerHTML = `You ${playerMove} - ${computerMove} Computer`
+    // document.querySelector('.js-moves')
+    // .innerHTML = `You ${playerMove} - ${computerMove} Computer`
     
     updateScoreElement()
 }
